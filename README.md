@@ -11,6 +11,7 @@ A program demonstrating the permutation cipher corresponding to a keyspace of 26
 
 ### Vegenere
 The program demonstrates the Vegenere Cipher and breaks the following ciphertext:
+
 cjnpkgrlilqwawbnuptgkerwxuzviaiiysxckwdntjawhqcutttvp\
 tewtrpgvcwlkkkgczafsihrimixukrwxrfmgfgkfxgukpjvvzmcmj\
 vawbnuptgcicvxvkgczkekgcqbchvnrqhhwiadfrcyxgvzqqtuvbd\
