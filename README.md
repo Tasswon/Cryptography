@@ -10,8 +10,7 @@ A program demonstrating the classic substitution cipher corresponding to a keysp
 A program demonstrating the permutation cipher corresponding to a keyspace of 26 english alphabet characters, a space, a comma, and a period. The initial program inputs a value of m for the size of the permutation and a plaintext. The permutation is randomized, and the program shows both encryption and decryption.
 
 ### Vegenere
-The program demonstrates the Vegenere Cipher and breaks the following ciphertext:
-
+The program demonstrates the Vegenere Cipher and breaks the following ciphertext:\
 cjnpkgrlilqwawbnuptgkerwxuzviaiiysxckwdntjawhqcutttvp\
 tewtrpgvcwlkkkgczafsihrimixukrwxrfmgfgkfxgukpjvvzmcmj\
 vawbnuptgcicvxvkgczkekgcqbchvnrqhhwiadfrcyxgvzqqtuvbd\
@@ -22,8 +21,8 @@ wxukssxpkqabmvkgcqbciagpadfrcyxgvyyimjvwpkgscwbpurwxq\
 kftkorrwvnrqhxurlslgvjxmvccraceathhtfpmeygczwgutttvtt\
 katmcvgiltwcsmjmvyghitfzaxodkbf
 
-Keysize: 5\
-Key: crypt\
-Plaintext: aspareantsofchildreninthesixthgradeatyourschoolwearereluctantlywritingyoutoprotestthepoormethinstructionthechildrenaregettinginmrjokesclassourcomplaintisbasedonseveralfactorsmrjokeoftenstepsoutinthehallduringclasstotalkwithpeoplewhowalkbyheassignsvirtuallynohomeworkwhileothermathclasseshavehomeworkeverynightalthoughthestudentslikemrjoketheycomplainthattheyarebehindtheothermathclassesandseelittlechanceofchatchingupweareveryconcernedaboutthisproblemmmmm
+**Keysize:** 5\
+**Key:** crypt\
+**Plaintext:** aspareantsofchildreninthesixthgradeatyourschoolwearereluctantlywritingyoutoprotestthepoormethinstructionthechildrenaregettinginmrjokesclassourcomplaintisbasedonseveralfactorsmrjokeoftenstepsoutinthehallduringclasstotalkwithpeoplewhowalkbyheassignsvirtuallynohomeworkwhileothermathclasseshavehomeworkeverynightalthoughthestudentslikemrjoketheycomplainthattheyarebehindtheothermathclassesandseelittlechanceofchatchingupweareveryconcernedaboutthisproblemmmmm
 
 The solution is found by computing the index of coincidence and mutual index of coincidence. They key size is determined and then using this information the key is found.
