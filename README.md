@@ -1,7 +1,7 @@
 # Cryptography Projects
 
 ## Description
-The following repositiory is are light programs demonstrating various cryptographic ciphers and functions.
+The following repositiory contains light programs demonstrating various cryptographic ciphers and functions.
 
 ### Substitution
 A program demonstrating the classic substitution cipher corresponding to a keyspace of 26 english alphabet characters, a space, a comma, and a period. The key itself is a random permutation, and the program shows both encryption and decryption.
