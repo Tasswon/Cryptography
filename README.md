@@ -25,6 +25,7 @@ The solution is found by computing the index of coincidence and mutual index of 
 A class holding the functions for a minimized version of the DES encryption method. The class includes the classic method, as well as the alternate CBC (cipher block chaining) mode of the algorithm.
 
 To Encrypt: name.binary_to_text(plaintext) => name.split_encrypt(binary_text, key)
+
 To Decrypt: name.split_decrypt(ciphertext, key) => name.binary_to_text(binary_text)
 
 ### DoubleEncryption
