@@ -20,3 +20,12 @@ cjnpkgrlilqwawbnuptgkerwxuzviaiiysxckwdntjawhqcutttvptewtrpgvcwlkkkgczafsihrimix
 **Plaintext:** aspareantsofchildreninthesixthgradeatyourschoolwearereluctantlywritingyoutoprotestthepoormethinstructionthechildrenaregettinginmrjokesclassourcomplaintisbasedonseveralfactorsmrjokeoftenstepsoutinthehallduringclasstotalkwithpeoplewhowalkbyheassignsvirtuallynohomeworkwhileothermathclasseshavehomeworkeverynightalthoughthestudentslikemrjoketheycomplainthattheyarebehindtheothermathclassesandseelittlechanceofchatchingupweareveryconcernedaboutthisproblemmmmm
 
 The solution is found by computing the index of coincidence and mutual index of coincidence. They key size is determined and then using this information the key is found.
+
+### MDES
+A class holding the functions for a minimized version of the DES encryption method. The class includes the classic method, as well as the alternate CBC (cipher block chaining) mode of the algorithm.
+
+To Encrypt: name.binary_to_text(plaintext) => name.split_encrypt(binary_text, key)
+To Decrypt: name.split_decrypt(ciphertext, key) => name.binary_to_text(binary_text)
+
+### DoubleEncryption
+A demonstration of a product encryption method that is vulnerable to a "meet-in-the-middle" attack. The first encryption method uses a permutation cipher operated on binary values, while a second utilizes a simple block cipher that XOR's a key value with each block. The first encryption method runs, and then the result of this is fed into the second. The resulting ciphertext can easily be attacked by performing a known-plaintext attack (using both a plaintext and ciphertext). Every possible permutation of the key and binary value is tested respectively with the encryption methods until a match is found between them. The point at which the match is found gives the key. 
